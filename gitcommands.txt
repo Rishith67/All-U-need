@@ -1,0 +1,61 @@
+☆*: .｡. o(≧▽≦)o .｡.:*☆
+git commands :
+$ git config --list
+#git config --global user.email "MY_NAME@example.com"
+#git config --global user.name "FIRST_NAME LAST_NAME"
+#git remote -v (allows us to see remotes we added )
+#git remote add master https://github.com/NIKHILMOHAN063/Clock.git
+#ls -a (allows us to show hidden files)
+
+
+#git add {file name}
+#git add .    (adds all files rather than one file)
+ ==> the add command adds the untracked files to the staging area
+#git status
+==>allows to check what files were added to staging area and review them
+
+
+#git commit -m"{msg}"
+==> the commit command takes the files of the staging area to local repository
+#git log
+==> It allows to see all of the commits that we made with all of the details such as date and time .
+
+#git push
+==> the push command takes the files in the local repository to the remote repository
+
+#git pull
+==> allows u to pull files and put them to ur local repsoitory
+
+
+ROADMAPS OF THE GIT FILES:-
+
+untracked files -----> staging area -------> local repository -----> remote repository
+                 add                 commit                    push
+
+
+BRANCHING :-
+
+#git branch {branch_name}
+==> Allows you create new branches
+#git branch 
+==> Allows you to see all of the branches avaliable in the local repo
+#git checkout {branch_name}
+==>Allows to change your branch to another branch
+
+
+
+---------some other useful commands------------
+#cd {file_name}
+#cd .. 
+==> takes u to previous folder
+#ls 
+==> shows all the contents in that file
+#ls -a
+==> shows all of the hidden contents in the file
+#touch {file_name.file_extension}
+==> creates a new file in that folder with that mentioned file type
+#mkdir {foldername}
+==> creates a new folder with that mentioned folder name 
+#code {file_name or folder_name}
+==> opens a certain folder or file 
+
