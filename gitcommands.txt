@@ -41,6 +41,7 @@ BRANCHING :-
 ==> Allows you to see all of the branches avaliable in the local repo
 #git checkout {branch_name}
 ==>Allows to change your branch to another branch
+#git merge feature_branch
 
 
 
