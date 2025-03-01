@@ -20,6 +20,9 @@ $ git config --list
 #git log
 ==> It allows to see all of the commits that we made with all of the details such as date and time .
 
+#git commit -a -m"commit_msg"
+==>It does the staging area and committing process at a same time 
+
 #git push
 ==> the push command takes the files in the local repository to the remote repository
 
