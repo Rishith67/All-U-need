@@ -45,6 +45,12 @@ BRANCHING :-
 #git checkout {branch_name}
 ==>Allows to change your branch to another branch
 #git merge feature_branch
+==>Lists both local and remote-tracking branches.
+#git branch -a
+==>Lists remote-tracking repositories
+#git branch -r
+
+
 
 
 
